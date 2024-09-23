@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  TakeHome
+
+  Created by Duy Phuong on 21/09/2024.
+  
+*/
+
+"UserInfoString_githubUsers"  = "Người dùng Github";
+"UserInfoString_userDetails"  = "Chi tiết người dùng";
+"UserInfoString_follower"     = "Người theo dõi";
+"UserInfoString_following"    = "Đang theo dõi";
+"UserInfoString_blog"         = "Blog";
+"UserInfoString_loadMoreUser" = "Đang tải thêm người dùng...";
+"UserInfoString_findingUsers" = "Đang tìm người dùng Githubs...";
