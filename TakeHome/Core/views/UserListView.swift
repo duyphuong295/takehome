@@ -37,8 +37,11 @@ where Content: View,
           userStore: UserStoreService(
             context: viewContext)
         )
-        NavigationLink(destination: UserDetailsView(viewModel: model)) {
+        ZStack {
           UserRowView(user: user)
+          NavigationLink(destination: UserDetailsView(viewModel: model)) {
+            EmptyView()
+          }.opacity(0)
         }
       }
       
